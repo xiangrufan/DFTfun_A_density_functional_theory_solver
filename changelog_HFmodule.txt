@@ -1,0 +1,33 @@
+11.10-v1.0
+Main functions: 1. calculate energy of CO and Ne using STO-2G basis set. 
+ultilitis: 1. Cartesian gaussian integrator were implemented based on paper from T Petersson1 and B Hellsing, 2010 Eur. J. Phys. 31 37 
+This version of code's integrator contains errors that makes CO calculation inconsistent with gaussian output
+The integrator used the explicit formula for Cartesian gaussian integral, hence is almost impossible to debug. 
+
+11.17-v1.1
+Main functions: 1. calculate energy of CO using STO-2G basis set. 
+ultilitis: 1. Cartesian gaussian integrator were implemented based on folk.uio.no/helgaker/talks/SostrupIntegrals_10.pdf.
+This version of code is consistent with gaussian output. 
+The integrator used uses a recursion, hence is much easier to read. 
+11.17-v1.2
+Main functions change: Large amount of optimization, involving ultilization of symmetry, contracted basis set, prescrening of Efunc from two-electron integration and optmization of Fvu function. 
+Time consumption of the CO code is reduced from 5minutes to 3.6 second.
+11.19-v1.3 
+Impemented symmetry on S,T and V matrix to enable the code to produce a smooth potential energy surface. 
+Strict symmetry of S matrix is crucial for a reliable result, hence must be enforced. 
+11.25-v1.35
+added a wave function plot program, added cauchy-schwartz screening to the code to enhance the performance. 
+Several modification of the code to make it less messy. 
+11.25-v1.35
+added a wave function plot program, added cauchy-schwartz screening to the code to enhance the performance. 
+Several modification of the code to make it less messy. 
+11.27-v1.36
+Add 6-311G basis set calculation on CO
+12.07-v1.40
+Improved the algorithm by replace explicitly computed  Efunc function with table checking, improved the Fvu function by adopting all tricks from the orignal MD paper.  Currently the code can finish STO2G-CO in 1.1 second.
+12.12-v1.45
+programmed an code writer to explicitly compute all 2 electron integral in non-recursive form.  Currently the code can finish STO2G-CO in less than 1.1 second.
+4.4/2015-v1.50
+modified several bug of the 2-electron integrator, added an initialization routine to enable the code to read gaussian input directly. 
+6.30/2015-v2.0
+Python/swig/libint 2 electron integrator implemented. 10X increasement in speed, also enables evaluation of derivatives. 

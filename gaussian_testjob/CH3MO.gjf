@@ -1,0 +1,18 @@
+%chk=C:\Users\Administrator\Desktop\MatlabCode\Project_DFT_fun\DFT_fun_v1.2\gaussian_testjob\CH3MO.chk
+# hf/sto-3g geom=connectivity
+
+Title Card Required
+
+0 1
+ C                 -0.49780383    0.30014641    0.00000000
+ H                 -0.14114940   -0.70866359    0.00000000
+ H                 -0.14113099    0.80454460    0.87365150
+ H                 -0.14113099    0.80454460   -0.87365150
+ H                 -1.56780383    0.30015959    0.00000000
+
+ 1 2 1.0 3 1.0 4 1.0 5 1.0
+ 2
+ 3
+ 4
+ 5
+

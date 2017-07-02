@@ -1,0 +1,17 @@
+%chk=C:\Users\Administrator\Desktop\MatlabCode\DFT_fun_v1.0\gaussian_testjob\water_HF.chk
+#p hf geom=connectivity output=wfn sto-2g
+
+Title Card Required
+
+0 1
+ O                  0.00000000    0.00000000    0.11081200
+ H                  0.00000000    0.78397600   -0.44324800
+ H                  0.00000000   -0.78397600   -0.44324800
+
+ 1 2 1.0 3 1.0
+ 2
+ 3
+
+waterxalpha.wfn
+
+

@@ -1,0 +1,10 @@
+3/30/2015 v1.0alpha
+single centered integral finished
+4/1/2015 v1.0beta
+double centered fuzzy space integral finished
+4/7/2015 v1.0gamma
+Xalpha DFT solution to carbon monoxide finished
+4/10/2015 v1.1
+multiply centered fuzzy space integral finished
+6/30/2015 v1.2
+HF module updated

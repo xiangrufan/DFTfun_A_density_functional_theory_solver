@@ -1,0 +1,12 @@
+%chk=C:\Users\Administrator\Desktop\MatlabCode\DFT_fun_v1.0\gaussian_testjob\COXalpha.chk
+# geom=connectivity int=grid=fine sto-2g xalpha
+
+Title Card Required
+
+0 1
+ C                  0.00000000    0.00000000   -0.62594100
+ O                  0.00000000    0.00000000    0.46945600
+
+ 1 2 3.0
+ 2
+

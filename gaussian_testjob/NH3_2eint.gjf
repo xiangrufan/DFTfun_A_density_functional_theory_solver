@@ -1,0 +1,16 @@
+#p hf/sto-3g geom=connectivity extralinks=l316 integral=noraff iop(3/33=6)
+scf=conventional gfprint
+
+Title Card Required
+
+0 1
+ N                  0.00000000    0.00000000    0.11432500
+ H                  0.00000000    0.93979900   -0.26675700
+ H                  0.81388900   -0.46989900   -0.26675700
+ H                 -0.81388900   -0.46989900   -0.26675700
+
+ 1 2 1.0 3 1.0 4 1.0
+ 2
+ 3
+ 4
+
